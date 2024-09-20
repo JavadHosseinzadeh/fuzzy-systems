@@ -1,0 +1,45 @@
+[System]
+Name='myfis'
+Type='sugeno'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=7
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[0 6.28318530717959]
+NumMFs=7
+MF1='in1mf1':'gaussmf',[0.706435149357819 -0.0185028329237294]
+MF2='in1mf2':'gaussmf',[0.559950130583669 0.759942169728249]
+MF3='in1mf3':'gaussmf',[0.605017082846022 2.10161823515256]
+MF4='in1mf4':'gaussmf',[0.661453117702897 3.1415906111079]
+MF5='in1mf5':'gaussmf',[0.605013787442177 4.18156804254256]
+MF6='in1mf6':'gaussmf',[0.559945059051107 5.52324418363468]
+MF7='in1mf7':'gaussmf',[0.706438813260464 6.30168849200003]
+
+[Output1]
+Name='output'
+Range=[-0.99918899817157 0.99918899817157]
+NumMFs=7
+MF1='out1mf1':'constant',[-0.524660100247161]
+MF2='out1mf2':'constant',[1.31701156865488]
+MF3='out1mf3':'constant',[1.10635252776254]
+MF4='out1mf4':'constant',[-3.44617200657201e-06]
+MF5='out1mf5':'constant',[-1.10635203463511]
+MF6='out1mf6':'constant',[-1.3170182118775]
+MF7='out1mf7':'constant',[0.524658716178028]
+
+[Rules]
+1, 1 (1) : 1
+2, 2 (1) : 1
+3, 3 (1) : 1
+4, 4 (1) : 1
+5, 5 (1) : 1
+6, 6 (1) : 1
+7, 7 (1) : 1
