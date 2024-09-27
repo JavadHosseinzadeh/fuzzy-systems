@@ -16,8 +16,8 @@ This project includes both single-objective (minimizing angle error) and multi-o
 ### Simulation and Optimization  
 Key files include:
 - **`Inverted_Pendulum_Model.m`** – Models the nonlinear dynamics of the pendulum.
-- **`app1.m`** – Handles single-objective optimization.
-- **`app2.m`** – Handles multi-objective optimization.
+- **`existed`** – Handles single-objective optimization.
+- **`multi folder`** – Handles multi-objective optimization.
 
 The optimization process tunes the FLC parameters to balance the pendulum under varying conditions.
 
